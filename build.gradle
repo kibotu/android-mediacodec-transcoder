@@ -1,0 +1,26 @@
+buildscript {
+
+    apply from: "./dependencies.gradle"
+
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        classpath plugin.gradleBuildTools
+        classpath plugin.kotlinGradle
+        classpath plugin.mavenCentralPublish
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+}
