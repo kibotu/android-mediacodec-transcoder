@@ -11,8 +11,6 @@ Features
 
 [![Screenshot](docs/screen-recording.gif)](docs/screen-recording.gif)
 
-[![Screenshot](example/source_video.mp4)](example/output_120_frames.mp4)
-
 # How to install
 
 ## MavenCentral
