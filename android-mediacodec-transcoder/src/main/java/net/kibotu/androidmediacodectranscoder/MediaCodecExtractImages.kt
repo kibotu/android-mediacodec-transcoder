@@ -201,7 +201,7 @@ class MediaCodecExtractImages {
         return -1
     }
 
-    internal class Cancelable {
+    class Cancelable {
         val cancel = AtomicBoolean(false)
     }
 
