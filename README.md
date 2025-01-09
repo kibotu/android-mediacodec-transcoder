@@ -9,7 +9,7 @@ Features
 - extracting images from video mediacodec
 - creating video from image mediacodec
 
-[![Screenshot](screenshot.png)](screenshot.png)
+[![Screenshot](docs/screen-recording.gif)](docs/screen-recording.gif)
 
 # How to install
 
